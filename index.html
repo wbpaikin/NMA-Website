@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NMA Torah Learning Center</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip" href="#event">Skip to the next evening</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#top">
+          <span class="brand-mark">NMA</span>
+          <span class="brand-name">NMA Torah Learning Center</span>
+        </a>
+        <input class="nav-toggle" id="nav-toggle" type="checkbox" />
+        <label class="nav-toggle-label" for="nav-toggle">Menu</label>
+        <nav class="site-nav" aria-label="Primary">
+          <a href="#top">Home</a>
+          <a href="#event">Upcoming</a>
+          <a href="#shiurim">Shiurim</a>
+          <span class="donate-wrap">
+            <a class="btn-donate" href="#donate">Donate</a>
+            <p class="charity-note">501(c)(3) charity</p>
+          </span>
+          <a href="#visit">Visit us</a>
+          <a href="#connect">Stay connected</a>
+          <a href="#about">About us</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="home-heading">
+        <div class="hero-media">
+          <img
+            src="images/temp-open-torah.jpg"
+            alt="An open Torah scroll. Temporary image, not a photograph of NMA."
+          />
+        </div>
+        <div class="hero-shade" aria-hidden="true"></div>
+        <div class="hero-copy">
+          <p class="script-line">All are welcome</p>
+          <h1 id="home-heading">NMA Torah Learning Center</h1>
+          <p class="hero-lead">A beit midrash in Rego Park.</p>
+          <div class="hero-actions">
+            <a class="btn-donate" id="join-cta" href="#event">Join us this Tuesday</a>
+            <a class="btn-secondary" href="#shiurim">Watch shiurim</a>
+          </div>
+          <p class="temp-note">
+            Temporary image, until we have a photograph of our own. Photo: Lawrie Cate, Wikimedia Commons.
+          </p>
+        </div>
+      </section>
+
+      <section class="section section-white" id="purpose" aria-labelledby="purpose-heading">
+        <div class="wrap blurb">
+          <p class="eyebrow">Our purpose</p>
+          <h2 id="purpose-heading">Who we are</h2>
+          <p>
+            NMA Torah Learning Center is a beit midrash in Rego Park, Queens.
+            All are welcome.
+          </p>
+          <p>
+            [Placeholder: mission statement — our purpose and the reason we gather, confirmed by the board.]
+          </p>
+        </div>
+      </section>
+
+      <!-- Update the next evening in this section only. The card below is copied from it. -->
+      <section
+        class="section section-ivory"
+        id="event"
+        aria-labelledby="event-heading"
+        data-date="Tuesday, October 13, 2026"
+        data-speaker="Bentsion"
+        data-topic=""
+      >
+        <div class="wrap event-grid">
+          <div>
+            <p class="eyebrow">Next evening</p>
+            <h2 id="event-heading">Tuesday, October 13, 2026</h2>
+            <p>
+              Speaker: Bentsion.<br />
+              Topic: [Placeholder: topic].
+            </p>
+            <ol class="schedule">
+              <li><span class="time">8:00 PM</span><span>Dinner</span></li>
+              <li><span class="time">8:30 PM</span><span>Shiur</span></li>
+              <li><span class="time">Then</span><span>Arvit</span></li>
+            </ol>
+            <div class="event-actions">
+              <a class="btn-donate" href="#donate">Sponsor this event</a>
+            </div>
+          </div>
+          <div class="flyer-frame">
+            <strong>Flyer coming</strong>
+            <span>[Placeholder: event flyer]</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-white" id="upcoming" aria-labelledby="upcoming-heading">
+        <div class="wrap">
+          <p class="eyebrow">Calendar</p>
+          <h2 id="upcoming-heading">Upcoming evenings</h2>
+          <p class="lede">
+            [Placeholder: embedded Google Calendar]. Further weeks will appear here once the shared calendar is connected.
+          </p>
+          <div class="card-grid" id="upcoming-cards"></div>
+          <h3>Recent evenings</h3>
+          <div class="flyer-grid">
+            <article class="flyer-card">
+              <img
+                src="images/flyer-rabbi-bryks.jpg"
+                alt="Flyer for Tuesday, October 6, 2026: lecture by Rabbi Bryks. Dinner at 8:00 PM, lecture at 8:30 PM, followed by Arvit."
+              />
+              <h3>Lecture by Rabbi Bryks</h3>
+              <p>Tuesday, October 6, 2026. Dinner 8:00 PM, lecture 8:30 PM, followed by Arvit.</p>
+            </article>
+            <article class="flyer-card">
+              <img
+                src="images/flyer-season-of-protection.jpg"
+                alt="Flyer for Tuesday, September 29, 2026: Season of Protection, Lipids, Energy and Immunity, with Bentsion Janashvili."
+              />
+              <h3>Season of Protection</h3>
+              <p>
+                Tuesday, September 29, 2026. Lipids, Energy and Immunity, with Bentsion Janashvili. 8:30 PM.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-navy" id="shiurim" aria-labelledby="shiurim-heading">
+        <div class="wrap">
+          <p class="eyebrow">Watch</p>
+          <h2 id="shiurim-heading">Recent shiurim</h2>
+          <p class="lede">Latest recordings from our channel. Titles are shown as published. Speaker names are not listed on the videos, so they are not added here.</p>
+          <div class="video-grid" id="video-grid">
+            <a class="video-card" href="https://www.youtube.com/watch?v=BdvxT1IvJfc" target="_blank" rel="noopener noreferrer">
+              <img src="https://i.ytimg.com/vi/BdvxT1IvJfc/hqdefault.jpg" alt="" />
+              <span class="video-title">Parashat bereshit and secret insights</span>
+              <span class="video-meta">October 9, 2026</span>
+            </a>
+            <a class="video-card" href="https://www.youtube.com/watch?v=f0SyscXU348" target="_blank" rel="noopener noreferrer">
+              <img src="https://i.ytimg.com/vi/f0SyscXU348/hqdefault.jpg" alt="" />
+              <span class="video-title">Prepare for Rosh Hashanah</span>
+              <span class="video-meta">September 9, 2026</span>
+            </a>
+            <a class="video-card" href="https://www.youtube.com/watch?v=e_qKjPCeFz8" target="_blank" rel="noopener noreferrer">
+              <img src="https://i.ytimg.com/vi/e_qKjPCeFz8/hqdefault.jpg" alt="" />
+              <span class="video-title">Freedom of Rosh Hashana</span>
+              <span class="video-meta">September 2, 2026</span>
+            </a>
+            <a class="video-card" href="https://www.youtube.com/watch?v=Ee1uTxsPPCs" target="_blank" rel="noopener noreferrer">
+              <img src="https://i.ytimg.com/vi/Ee1uTxsPPCs/hqdefault.jpg" alt="" />
+              <span class="video-title">Parsha and moral commandments.</span>
+              <span class="video-meta">August 27, 2026</span>
+            </a>
+            <a class="video-card" href="https://www.youtube.com/watch?v=nhjQW2W2IUE" target="_blank" rel="noopener noreferrer">
+              <img src="https://i.ytimg.com/vi/nhjQW2W2IUE/hqdefault.jpg" alt="" />
+              <span class="video-title">NMA Torah Learning Center is live!</span>
+              <span class="video-meta">August 19, 2026</span>
+            </a>
+            <a class="video-card" href="https://www.youtube.com/watch?v=niQzbvo1YCo" target="_blank" rel="noopener noreferrer">
+              <img src="https://i.ytimg.com/vi/niQzbvo1YCo/hqdefault.jpg" alt="" />
+              <span class="video-title">NMA Torah Learning Center is live!</span>
+              <span class="video-meta">August 16, 2026</span>
+            </a>
+          </div>
+          <p class="channel-link">
+            <a href="https://www.youtube.com/@nmalearningcenter" target="_blank" rel="noopener noreferrer">Watch more on YouTube: @nmalearningcenter</a>
+          </p>
+        </div>
+      </section>
+
+      <section class="section section-ivory" id="donate" aria-labelledby="donate-heading">
+        <div class="wrap">
+          <p class="eyebrow">Give</p>
+          <h2 id="donate-heading">Sponsor and donate</h2>
+          <p class="lede">
+            NMA Torah Learning Center is a 501(c)(3) charity. You choose what the gift is for, and you can dedicate it. Donations stay open every day, including Shabbat and Yom Tov. Amounts are set by the board in the donation platform.
+          </p>
+          <div class="purpose-grid">
+            <article class="purpose-card">
+              <h3>Sponsor a shiur</h3>
+              <p>The sponsor's name is shown on that evening.</p>
+            </article>
+            <article class="purpose-card">
+              <h3>Sponsor a meal</h3>
+              <p>The sponsor's name is shown on that evening.</p>
+            </article>
+            <article class="purpose-card">
+              <h3>General donation</h3>
+              <p>You choose the amount. Monthly giving can be offered once the platform is connected.</p>
+            </article>
+            <article class="purpose-card">
+              <h3>In honor of</h3>
+              <p>Name the person being honored. An optional notice can be sent to them.</p>
+            </article>
+            <article class="purpose-card">
+              <h3>In memory of</h3>
+              <p>L'iluy nishmat. Name of the departed, and an optional azkara date.</p>
+            </article>
+          </div>
+          <p class="fine-print">[Placeholder: donation page]. The giving form is not connected yet, so a purpose cannot be selected or a dedication entered until that link is ready.</p>
+          <p><a class="btn-donate" href="#donate">Donate</a></p>
+        </div>
+      </section>
+
+      <section class="section section-white" id="visit" aria-labelledby="visit-heading">
+        <div class="wrap">
+          <p class="eyebrow">Find us</p>
+          <h2 id="visit-heading">Visit us</h2>
+          <div class="visit-grid">
+            <div>
+              <address>
+                <strong>6447 Dieterle Crescent</strong><br />
+                Rego Park, NY 11374
+              </address>
+              <p>The entrance is in the back, down the stairs.</p>
+            </div>
+            <div class="map-frame">
+              <iframe
+                src="https://maps.google.com/maps?q=6447%20Dieterle%20Crescent%2C%20Rego%20Park%2C%20NY%2011374&amp;output=embed"
+                title="Map of 6447 Dieterle Crescent, Rego Park, NY 11374"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+          <div class="photo-grid">
+            <figure class="photo-card">
+              <img
+                src="images/building-front.png"
+                alt="Front of the building at 6447 Dieterle Crescent, Rego Park."
+              />
+              <figcaption>Front of the building.</figcaption>
+            </figure>
+            <div class="photo-slot">
+              <strong>Back entrance</strong>
+              <span>[Placeholder: back path photo]. A stock photo is not used here, so it is not mistaken for our stairs.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-navy" id="connect" aria-labelledby="connect-heading">
+        <div class="wrap connect-panel">
+          <p class="eyebrow">Stay in touch</p>
+          <h2 id="connect-heading">Stay connected</h2>
+          <p>Join the WhatsApp group for evenings and announcements.</p>
+          <a
+            class="btn-donate"
+            href="https://chat.whatsapp.com/FOMmoDpEmGTAIXna0kIzPx"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Join our WhatsApp</a
+          >
+          <p>Email list: [Placeholder: organization email]</p>
+        </div>
+      </section>
+
+      <section class="section section-white" id="about" aria-labelledby="about-heading">
+        <div class="wrap blurb">
+          <p class="eyebrow">About us</p>
+          <h2 id="about-heading">About us</h2>
+          <p>
+            NMA Torah Learning Center is a 501(c)(3) charity and a beit midrash
+            in Rego Park. All are welcome.
+          </p>
+          <p>
+            [Placeholder: history, what we offer, and the people who serve the community, confirmed by the board.]
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-grid">
+        <div>
+          <strong>NMA Torah Learning Center</strong>
+          <p>6447 Dieterle Crescent<br />Rego Park, NY 11374</p>
+          <p>Entrance in the back, down the stairs.</p>
+          <p>501(c)(3) charity</p>
+        </div>
+        <div>
+          <ul>
+            <li><a href="#event">Upcoming</a></li>
+            <li><a href="#shiurim">Shiurim</a></li>
+            <li><a href="#donate">Donate</a></li>
+            <li><a href="#visit">Visit us</a></li>
+            <li><a href="#connect">Stay connected</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="https://www.youtube.com/@nmalearningcenter" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+            <li><a href="https://chat.whatsapp.com/FOMmoDpEmGTAIXna0kIzPx" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="wrap">
+        <p class="footer-note">
+          Hero photograph is a temporary stand-in by Lawrie Cate, via Wikimedia Commons, and is not a picture of NMA.
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      (function () {
+        var eventSection = document.getElementById("event");
+        var cards = document.getElementById("upcoming-cards");
+        var join = document.getElementById("join-cta");
+        if (eventSection && cards) {
+          var date = eventSection.getAttribute("data-date") || "";
+          var speaker = eventSection.getAttribute("data-speaker") || "";
+          var topic = eventSection.getAttribute("data-topic") || "";
+          var day = date.split(",")[0];
+          if (join && day) join.textContent = "Join us this " + day;
+
+          var card = document.createElement("article");
+          card.className = "event-card";
+          var title = document.createElement("h3");
+          title.textContent = date;
+          var detail = document.createElement("p");
+          detail.textContent =
+            "Speaker: " +
+            speaker +
+            ". Topic: " +
+            (topic || "[Placeholder: topic]") +
+            ". Dinner 8:00 PM, shiur 8:30 PM, then Arvit.";
+          var link = document.createElement("p");
+          var anchor = document.createElement("a");
+          anchor.href = "#event";
+          anchor.textContent = "See this evening";
+          link.appendChild(anchor);
+          card.appendChild(title);
+          card.appendChild(detail);
+          card.appendChild(link);
+          cards.appendChild(card);
+        }
+
+        var grid = document.getElementById("video-grid");
+        if (!grid || !window.fetch) return;
+        var feed =
+          "https://www.youtube.com/feeds/videos.xml?playlist_id=UUFWK_wG7uP2vhiaYXRzTHmg";
+        fetch(
+          "https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent(feed)
+        )
+          .then(function (response) {
+            return response.json();
+          })
+          .then(function (data) {
+            if (!data.items || !data.items.length) return;
+            grid.textContent = "";
+            data.items.slice(0, 6).forEach(function (item) {
+              var videoUrl = item.link;
+              var idMatch = /v=([^&]+)/.exec(videoUrl);
+              var id = idMatch ? idMatch[1] : "";
+              var cardLink = document.createElement("a");
+              cardLink.className = "video-card";
+              cardLink.href = videoUrl;
+              cardLink.target = "_blank";
+              cardLink.rel = "noopener noreferrer";
+              var image = document.createElement("img");
+              image.alt = "";
+              image.src = id
+                ? "https://i.ytimg.com/vi/" + id + "/hqdefault.jpg"
+                : item.thumbnail;
+              var name = document.createElement("span");
+              name.className = "video-title";
+              name.textContent = (item.title || "").trim();
+              var when = document.createElement("span");
+              when.className = "video-meta";
+              var published = new Date(item.pubDate);
+              when.textContent = isNaN(published)
+                ? ""
+                : published.toLocaleDateString("en-US", {
+                    month: "long",
+                    day: "numeric",
+                    year: "numeric",
+                  });
+              cardLink.appendChild(image);
+              cardLink.appendChild(name);
+              cardLink.appendChild(when);
+              grid.appendChild(cardLink);
+            });
+          })
+          .catch(function () {});
+      })();
+    </script>
+  </body>
+</html>
