@@ -518,6 +518,10 @@ address {
   display: block;
 }
 
+.event-flyer {
+  margin: 0;
+}
+
 .flyer-card h3 {
   margin: 0.8rem 1rem 0.2rem;
   color: var(--navy);
